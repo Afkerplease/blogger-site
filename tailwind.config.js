@@ -25,5 +25,6 @@ module.exports = {
       Verydarkdesaturatedblue: "hsl(237, 23%, 32%)",
     },
   },
+
   plugins: [],
 };
