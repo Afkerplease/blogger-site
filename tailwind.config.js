@@ -10,7 +10,7 @@ module.exports = {
     },
     colors: {
       Lightred: "hsl(356, 100%, 66%)",
-      Verylightred: "hsl(355, 100%, 74%)",
+      Verylightred2: "hsl(355, 100%, 74%)",
       Verydarkblue: "hsl(208, 49%, 24%)",
 
       White: "hsl(0, 0%, 100%)",

@@ -1,15 +1,21 @@
 import React from "react";
 import laptopmob from "../images/illustration-laptop-mobile.svg";
+import laptopdesk from "../images/illustration-laptop-desktop.svg";
 
 function LaptopSection() {
   return (
-    <section className="py-10 font-overpass ">
-      <img src={laptopmob} className="mx-auto" />
-      <div className=" flex  flex-col items-center">
+    <section className=" md:grid-cols-2 md:gap-10 md:grid md:place-items-center py-10 font-overpass ">
+      <div>
+        <picture>
+          <source media="(min-width:768px )" srcSet={laptopdesk} sizes="" />
+          <img src={laptopmob} className="mx-auto  " />
+        </picture>
+      </div>
+      <div className=" flex md:items-start  flex-col items-center">
         <h2 className=" font-[600] text-3xl mt-8 mb-4 text-Verydarkblue">
           Free,open,simple
         </h2>
-        <p className=" mb-8 text-Verydarkgrayishblue text-[17px]  text-center w-[65%] ">
+        <p className=" md:text-start mb-8 text-Verydarkgrayishblue text-[17px] md:w-[55%]  text-center w-[65%] ">
           Blogr is a free and open source application backed by a large
           community of helpful developers. It supports features such as code
           syntax highlighting, RSS feeds, social media integration, third-party
@@ -19,7 +25,7 @@ function LaptopSection() {
         <h2 className="font-[600] text-3xl mt-8 mb-5 text-Verydarkblue">
           Powerful tooling
         </h2>
-        <p className="text-Verydarkgrayishblue text-[17px]  text-center w-[65%]">
+        <p className=" md:text-start text-Verydarkgrayishblue text-[17px] md:w-[57%]  text-center w-[65%]">
           {" "}
           Batteries included. We built a simple and straightforward CLI tool
           that makes customization and deployment a breeze, but capable of
