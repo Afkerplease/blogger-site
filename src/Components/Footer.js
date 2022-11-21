@@ -13,22 +13,32 @@ function Footer() {
           <ul className="flex text-Grayishblue items-center flex-col gap-2">
             <li>
               {" "}
-              <a href="#">Overview</a>{" "}
+              <a href="#" className="hover:underline">
+                Overview
+              </a>{" "}
             </li>
             <li>
               {" "}
-              <a href="#">Pricing</a>{" "}
+              <a href="#" className=" hover:underline">
+                Pricing
+              </a>{" "}
             </li>
             <li>
-              <a href="#">Marketplace</a>{" "}
+              <a href="#" className=" hover:underline">
+                Marketplace
+              </a>{" "}
             </li>
             <li>
               {" "}
-              <a href="#">Features</a>{" "}
+              <a href="#" className=" hover:underline">
+                Features
+              </a>{" "}
             </li>
             <li>
               {" "}
-              <a href="#">Integrations</a>{" "}
+              <a href="#" className=" hover:underline">
+                Integrations
+              </a>{" "}
             </li>
           </ul>
         </div>
@@ -39,18 +49,26 @@ function Footer() {
           <ul className="flex text-Grayishblue items-center flex-col gap-2">
             <li>
               {" "}
-              <a href="#">About</a>
+              <a href="#" className="hover:underline">
+                About
+              </a>
             </li>
 
             <li>
-              <a href="#">Team</a>
+              <a href="#" className="hover:underline">
+                Team
+              </a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#" className="hover:underline">
+                Blog
+              </a>
             </li>
             <li>
               {" "}
-              <a href="#">Careers</a>
+              <a href="#" className="hover:underline">
+                Careers
+              </a>
             </li>
           </ul>
         </div>
@@ -61,14 +79,20 @@ function Footer() {
           <ul className="flex text-Grayishblue items-center flex-col gap-2">
             <li>
               {" "}
-              <a href="#">Contact</a>
+              <a href="#" className=" hover:underline">
+                Contact
+              </a>
             </li>
 
             <li>
-              <a href="#">Newsletter</a>
+              <a href="#" className=" hover:underline">
+                Newsletter
+              </a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a href="#" className=" hover:underline">
+                LinkedIn
+              </a>
             </li>
           </ul>
         </div>
